@@ -1,5 +1,4 @@
-let greeting = "Bienvenido al mercado de RWA en México";
-const rest = "https://petrointelligence.com/api/api_precios.html?consulta=nac";
+let greeting = "Contratos RWA disponibles:";
 const styling = {
   container: {
     display: "flex",
@@ -298,7 +297,6 @@ const TextArea = styled.textarea`
 //
 return (
   <>
-    console.log(rest);
     <div style={styling.container}>
       {price ? (
         <div style={styling.title}>
